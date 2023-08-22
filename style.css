@@ -1,0 +1,41 @@
+.header {
+    background-color: orangered;
+    padding: 40px;
+}
+
+.btn {
+    width: 260px;
+    height: 42px;
+    font-size: 20px;
+    border: none;
+
+}
+
+.input {
+    width: 960px;
+    height: 36px;
+    font-size: 20px;
+}
+
+.input::placeholder {
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+
+}
+
+.list {
+    display: flex;
+    gap: 12px
+}
+
+.item {
+    list-style: none;
+    width: 200px;
+    min-height: 200px;
+    background-color: yellow;
+    font-size: 24px;
+    padding: 8px;
+}
